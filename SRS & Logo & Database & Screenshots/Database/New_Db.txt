@@ -1,0 +1,151 @@
+-- Create Admin table
+CREATE TABLE Admin (
+    aid INT IDENTITY(1,1) PRIMARY KEY,
+    aname VARCHAR(100) NOT NULL,
+    apwd VARCHAR(255) NOT NULL,
+    aemail VARCHAR(150) NOT NULL UNIQUE,
+	role VARCHAR(150) DEFAULT 'admin'
+);
+
+-- Create Users table
+CREATE TABLE Users (
+    uid INT IDENTITY PRIMARY KEY,
+    ufirstName VARCHAR(100) NOT NULL,
+    ulastName VARCHAR(50) NOT NULL,
+    uname VARCHAR(100) NOT NULL,
+    role VARCHAR(20) NOT NULL CHECK (role IN ('Admin', 'Customer', 'Seller')),
+    upwd VARCHAR(255) NOT NULL,
+    uemail VARCHAR(150) NOT NULL UNIQUE,
+    mob_no VARCHAR(15) NOT NULL,
+    pan_card CHAR(10) NOT NULL,
+    address VARCHAR(255),
+    bank_acc_no VARCHAR(20),
+    bankname VARCHAR(100),
+    bank_branch VARCHAR(100),
+    account_holder_name VARCHAR(100),
+    ifsc_code VARCHAR(20),
+    access_status VARCHAR(10) DEFAULT 'Active' CHECK (access_status IN ('Active', 'Inactive'))
+);
+
+-- Create All_Vehicles_Details table
+CREATE TABLE All_Vehicles_Details (
+    vehicleid INT IDENTITY(1,1) PRIMARY KEY,
+    reg_no VARCHAR(20) NOT NULL UNIQUE,
+    reg_year INT NOT NULL,
+    manufac_name VARCHAR(50) NOT NULL,
+    model_name VARCHAR(50) NOT NULL,
+    fuel_type VARCHAR(10) CHECK (fuel_type IN ('Petrol', 'Diesel', 'CNG')),
+    insurance VARCHAR(50),
+    km_driven INT,
+    RTO_passing VARCHAR(50),
+    year_of_manufacturing INT NOT NULL,
+    parking_location VARCHAR(50),
+    imgUrls VARCHAR(1500),
+    pdfReportUrl VARCHAR(400)
+);
+
+-- Create Host_Auction table
+CREATE TABLE Host_Auction (
+    auctionid INT IDENTITY(1,1) PRIMARY KEY,
+    vehicleid INT,
+    base_price DECIMAL(10,2) NOT NULL,
+    auction_start DATETIME NOT NULL,
+    auction_end DATETIME NOT NULL,
+    removeSchedule BIT,  -- Change BOOLEAN to BIT
+    startAuction BIT,  -- Change BOOLEAN to BIT
+    FOREIGN KEY (vehicleid) REFERENCES All_Vehicles_Details(vehicleid) 
+    ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+
+
+-- Create Current_Auction table
+CREATE TABLE Current_Auction (
+    vehicleid INT,
+    auctionid INT,
+    base_price DECIMAL(10,2) NOT NULL,
+    highest_bid DECIMAL(10,2),
+    auction_start DATETIME NOT NULL,
+    auction_end DATETIME NOT NULL,
+    PRIMARY KEY (vehicleid, auctionid),  -- Adding composite primary key here
+    FOREIGN KEY (vehicleid) REFERENCES All_Vehicles_Details(vehicleid) ON DELETE NO ACTION ON UPDATE NO ACTION,
+    FOREIGN KEY (auctionid) REFERENCES Host_Auction(auctionid) ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+
+
+
+-- Create Deposit_Payment table
+CREATE TABLE Deposit_Payment (
+    payment_no INT IDENTITY(1,1) PRIMARY KEY,
+    uid INT,
+    transactionTime DATETIME,
+    amt DECIMAL(10, 2) NOT NULL,
+    paymentId VARCHAR(50),
+    orderId VARCHAR(50),
+    planType VARCHAR(40) CHECK (planType IN ('BASIC', 'PREMIUM')),
+    FOREIGN KEY (uid) REFERENCES Users(uid) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Create Allowed_User table
+CREATE TABLE Allowed_User (
+    uid INT PRIMARY KEY,
+    payment_no INT,
+    auction_access_left INT NOT NULL,
+    FOREIGN KEY (payment_no) REFERENCES Deposit_Payment(payment_no) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (uid) REFERENCES Users(uid) ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+
+-- Auction_Status_Track with proper composite primary key
+CREATE TABLE Auction_Status_Track (
+    allowed_user_uid INT NOT NULL,
+    vehicleid INT NOT NULL,
+    auctionid INT NOT NULL,
+    user_bid_left INT NOT NULL,
+    price_offered DECIMAL(10,2) NOT NULL,
+    highest_bidder INT DEFAULT 0,
+    auction_end BIT DEFAULT 0,
+    PRIMARY KEY (allowed_user_uid, vehicleid, auctionid),
+    FOREIGN KEY (allowed_user_uid) REFERENCES Allowed_User(uid) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (vehicleid, auctionid) REFERENCES Current_Auction(vehicleid, auctionid) 
+    ON DELETE CASCADE ON UPDATE CASCADE  -- Fix: Match composite key structure
+);
+
+-- Create WinnerTable
+CREATE TABLE WinnerTable (
+    allowed_user_uid INT,  -- First column (matching PK order in Auction_Status_Track)
+    vehicleId INT,         -- Second column
+    auctionId INT,         -- Third column
+    amountPending INT,
+    auctionEndDate DATETIME,
+    PRIMARY KEY (allowed_user_uid, vehicleId, auctionId),  -- Fix: Match Auction_Status_Track PK
+    FOREIGN KEY (allowed_user_uid, vehicleId, auctionId) 
+        REFERENCES Auction_Status_Track(allowed_user_uid, vehicleid, auctionid) 
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Create Payment_Transaction table
+CREATE TABLE Payment_Transaction (
+    transaction_id INT IDENTITY(1,1) PRIMARY KEY,
+    uid INT,
+    transaction_date DATE NOT NULL,
+    amt DECIMAL(10, 2) NOT NULL,
+    utr_no VARCHAR(50) NOT NULL UNIQUE,
+    FOREIGN KEY (uid) REFERENCES Users(uid) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Create Approvals table
+CREATE TABLE Approvals (
+    allowed_user_uid INT,  -- First column (matching WinnerTable PK)
+    vehicleid INT,         -- Second column
+    auctionid INT,         -- Third column
+    vehicleName VARCHAR(100) NOT NULL,
+    bidAmt DECIMAL(10,2) NOT NULL,
+    winnerId INT,
+    approval_status VARCHAR(20) DEFAULT 'Pending' CHECK (approval_status IN ('Pending', 'Approved')),
+    approval_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (allowed_user_uid, vehicleid, auctionid),  -- Fix: Match WinnerTable PK
+    FOREIGN KEY (allowed_user_uid, vehicleid, auctionid) 
+        REFERENCES WinnerTable(allowed_user_uid, vehicleId, auctionId) 
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
