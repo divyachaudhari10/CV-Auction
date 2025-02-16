@@ -1,0 +1,174 @@
+CREATE DATABASE cvauction;
+use cvauction;
+
+CREATE TABLE `admin` (
+  `aid` int NOT NULL AUTO_INCREMENT,
+  `aname` varchar(100) NOT NULL,
+  `apwd` varchar(255) NOT NULL,
+  `aemail` varchar(150) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `apassword` varchar(255) NOT NULL,
+  PRIMARY KEY (`aid`),
+  UNIQUE KEY `aemail` (`aemail`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `users` (
+  `uid` int NOT NULL AUTO_INCREMENT,
+  `ufirstname` varchar(255) DEFAULT NULL,
+  `ulastname` varchar(255) DEFAULT NULL,
+  `uname` varchar(255) DEFAULT NULL,
+  `role` varchar(255) DEFAULT NULL,
+  `upwd` varchar(255) NOT NULL,
+  `uemail` varchar(255) DEFAULT NULL,
+  `mobno` varchar(255) NOT NULL,
+  `pancard` varchar(10) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `bankaccno` varchar(255) DEFAULT NULL,
+  `bankname` varchar(255) DEFAULT NULL,
+  `bankbranch` varchar(255) DEFAULT NULL,
+  `accountholdername` varchar(255) DEFAULT NULL,
+  `ifsccode` varchar(255) DEFAULT NULL,
+  `accessstatus` varchar(10) DEFAULT 'active',
+  `ulast_name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`uid`),
+  UNIQUE KEY `uemail` (`uemail`),
+  CONSTRAINT `users_chk_1` CHECK ((`role` in (_utf8mb4'admin',_utf8mb4'customer',_utf8mb4'seller'))),
+  CONSTRAINT `users_chk_2` CHECK ((`accessstatus` in (_utf8mb4'active',_utf8mb4'inactive')))
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `allvehiclesdetails` (
+  `vehicleid` int NOT NULL AUTO_INCREMENT,
+  `regno` varchar(20) NOT NULL,
+  `regyear` int NOT NULL,
+  `manufacname` varchar(50) NOT NULL,
+  `modelname` varchar(50) NOT NULL,
+  `fueltype` varchar(10) DEFAULT NULL,
+  `insurance` varchar(50) DEFAULT NULL,
+  `kmdriven` int DEFAULT NULL,
+  `rtopassing` varchar(50) DEFAULT NULL,
+  `yearofmanufacturing` int NOT NULL,
+  `parkinglocation` varchar(50) DEFAULT NULL,
+  `imgurls` varchar(1500) DEFAULT NULL,
+  `pdfreporturl` varchar(400) DEFAULT NULL,
+  PRIMARY KEY (`vehicleid`),
+  UNIQUE KEY `regno` (`regno`),
+  CONSTRAINT `allvehiclesdetails_chk_1` CHECK ((`fueltype` in (_utf8mb4'petrol',_utf8mb4'diesel',_utf8mb4'cng')))
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `depositpayment` (
+  `paymentno` int NOT NULL AUTO_INCREMENT,
+  `uid` int DEFAULT NULL,
+  `transactiontime` datetime DEFAULT NULL,
+  `amt` decimal(10,2) NOT NULL,
+  `paymentid` varchar(50) DEFAULT NULL,
+  `orderid` varchar(50) DEFAULT NULL,
+  `plantype` varchar(40) DEFAULT NULL,
+  PRIMARY KEY (`paymentno`),
+  KEY `uid` (`uid`),
+  CONSTRAINT `depositpayment_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `depositpayment_chk_1` CHECK ((`plantype` in (_utf8mb4'basic',_utf8mb4'premium')))
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `alloweduser` (
+  `uid` int NOT NULL,
+  `paymentno` int DEFAULT NULL,
+  `auctionaccessleft` int NOT NULL,
+  PRIMARY KEY (`uid`),
+  KEY `paymentno` (`paymentno`),
+  CONSTRAINT `alloweduser_ibfk_1` FOREIGN KEY (`paymentno`) REFERENCES `depositpayment` (`paymentno`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `alloweduser_ibfk_2` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `hostauction` (
+  `auctionid` int NOT NULL AUTO_INCREMENT,
+  `vehicleid` int DEFAULT NULL,
+  `baseprice` decimal(10,2) NOT NULL,
+  `auctionstart` datetime NOT NULL,
+  `auctionend` datetime NOT NULL,
+  `removeschedule` tinyint(1) DEFAULT NULL,
+  `startauction` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`auctionid`),
+  KEY `vehicleid` (`vehicleid`),
+  CONSTRAINT `hostauction_ibfk_1` FOREIGN KEY (`vehicleid`) REFERENCES `allvehiclesdetails` (`vehicleid`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `currentauction` (
+  `vehicleid` int NOT NULL,
+  `auctionid` int NOT NULL,
+  `baseprice` decimal(10,2) NOT NULL,
+  `highestbid` decimal(10,2) DEFAULT NULL,
+  `auctionstart` datetime NOT NULL,
+  `auctionend` datetime NOT NULL,
+  PRIMARY KEY (`vehicleid`,`auctionid`),
+  KEY `auctionid` (`auctionid`),
+  CONSTRAINT `currentauction_ibfk_1` FOREIGN KEY (`vehicleid`) REFERENCES `allvehiclesdetails` (`vehicleid`),
+  CONSTRAINT `currentauction_ibfk_2` FOREIGN KEY (`auctionid`) REFERENCES `hostauction` (`auctionid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `auctionstatustrack` (
+  `alloweduseruid` int NOT NULL,
+  `vehicleid` int NOT NULL,
+  `auctionid` int NOT NULL,
+  `userbidleft` int NOT NULL,
+  `priceoffered` decimal(10,2) NOT NULL,
+  `highestbidder` int DEFAULT '0',
+  `auctionend` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`alloweduseruid`,`vehicleid`,`auctionid`),
+  KEY `vehicleid` (`vehicleid`,`auctionid`),
+  CONSTRAINT `auctionstatustrack_ibfk_1` FOREIGN KEY (`alloweduseruid`) REFERENCES `alloweduser` (`uid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `auctionstatustrack_ibfk_2` FOREIGN KEY (`vehicleid`, `auctionid`) REFERENCES `currentauction` (`vehicleid`, `auctionid`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `winnertable` (
+  `winnerid` int NOT NULL AUTO_INCREMENT,
+  `alloweduseruid` int NOT NULL,
+  `vehicleid` int NOT NULL,
+  `auctionid` int NOT NULL,
+  `auctionenddate` datetime DEFAULT NULL,
+  PRIMARY KEY (`winnerid`),
+  KEY `alloweduseruid` (`alloweduseruid`),
+  KEY `vehicleid` (`vehicleid`),
+  KEY `auctionid` (`auctionid`),
+  CONSTRAINT `winnertable_ibfk_1` FOREIGN KEY (`alloweduseruid`) REFERENCES `alloweduser` (`uid`),
+  CONSTRAINT `winnertable_ibfk_2` FOREIGN KEY (`vehicleid`) REFERENCES `allvehiclesdetails` (`vehicleid`),
+  CONSTRAINT `winnertable_ibfk_3` FOREIGN KEY (`auctionid`) REFERENCES `currentauction` (`auctionid`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `paymenttransaction` (
+  `transactionid` int NOT NULL AUTO_INCREMENT,
+  `uid` int DEFAULT NULL,
+  `transactiondate` date NOT NULL,
+  `amt` decimal(10,2) NOT NULL,
+  `utrno` varchar(50) NOT NULL,
+  PRIMARY KEY (`transactionid`),
+  UNIQUE KEY `utrno` (`utrno`),
+  KEY `uid` (`uid`),
+  CONSTRAINT `paymenttransaction_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `approvals` (
+  `approvalid` int NOT NULL AUTO_INCREMENT,
+  `alloweduseruid` int NOT NULL,
+  `vehicleid` int NOT NULL,
+  `auctionid` int NOT NULL,
+  `vehiclename` varchar(100) NOT NULL,
+  `bidamt` decimal(10,2) NOT NULL,
+  `winnerid` int DEFAULT NULL,
+  `approvalstatus` varchar(20) DEFAULT 'pending',
+  `approvaldate` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`approvalid`),
+  KEY `alloweduseruid` (`alloweduseruid`),
+  KEY `vehicleid` (`vehicleid`),
+  KEY `auctionid` (`auctionid`),
+  CONSTRAINT `approvals_ibfk_1` FOREIGN KEY (`alloweduseruid`) REFERENCES `alloweduser` (`uid`),
+  CONSTRAINT `approvals_ibfk_2` FOREIGN KEY (`vehicleid`) REFERENCES `allvehiclesdetails` (`vehicleid`),
+  CONSTRAINT `approvals_ibfk_3` FOREIGN KEY (`auctionid`) REFERENCES `auctionstatustrack` (`alloweduseruid`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

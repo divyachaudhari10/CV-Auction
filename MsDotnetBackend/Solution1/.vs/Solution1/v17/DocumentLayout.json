@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\utilscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\utilscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\userdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\userdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\userliveauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\userliveauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\cv_auction099.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\cv_auction099.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\currentauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\currentauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\auctiontrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\auctiontrackingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\loginservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\loginservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\auctionstatustrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\auctionstatustrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.Auction_Status_Track.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\winnertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\winnertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\depositplans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\depositplans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\winnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\winnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\depositpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\depositpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\cvauction01context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\cvauction01context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\allowedusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\allowedusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\bidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\bidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.All_Vehicles_Details.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\hostauction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\hostauction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\controllers\\hostauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\controllers\\hostauctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\currentauction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\currentauction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\allvehiclesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\allvehiclesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|c:\\users\\yogesh\\onedrive\\desktop\\zzzzzzz\\solution1\\cv_auction099\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4267F16-EB0F-4391-815E-FE796E0F27B8}|CV_Auction099\\CV_Auction099.csproj|solutionrelative:cv_auction099\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuctionStatusTrack.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\AuctionStatusTrack.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\AuctionStatusTrack.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\AuctionStatusTrack.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\AuctionStatusTrack.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:09:46.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\User.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:08:16.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserLiveAuctionController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UserLiveAuctionController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\UserLiveAuctionController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UserLiveAuctionController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\UserLiveAuctionController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T23:44:42.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UserDashboardController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\UserDashboardController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UserDashboardController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\UserDashboardController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T10:02:47.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T17:30:31.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UtilsController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UtilsController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\UtilsController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UtilsController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\UtilsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T22:38:11.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CV_Auction099.http",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\CV_Auction099.http",
+              "RelativeDocumentMoniker": "CV_Auction099\\CV_Auction099.http",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\CV_Auction099.http",
+              "RelativeToolTip": "CV_Auction099\\CV_Auction099.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-09T12:36:13.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CurrentAuctionController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\CurrentAuctionController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\CurrentAuctionController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\CurrentAuctionController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\CurrentAuctionController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:21:26.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuctionTrackingController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\AuctionTrackingController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\AuctionTrackingController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\AuctionTrackingController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\AuctionTrackingController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwEEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:21:31.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Program.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Program.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Program.cs",
+              "RelativeToolTip": "CV_Auction099\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwD8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:06:02.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApprovalController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\ApprovalController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\ApprovalController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\ApprovalController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\ApprovalController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAswGMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:25:17.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Auction_Status_Track.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.Auction_Status_Track.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.Auction_Status_Track.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-09T10:50:21.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\LoginServiceController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\LoginServiceController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\LoginServiceController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\LoginServiceController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:17:18.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T16:45:52.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:03:35.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:28:47.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WinnersController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\WinnersController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\WinnersController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\WinnersController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\WinnersController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA2wBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T11:39:17.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WinnerTable.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\WinnerTable.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\WinnerTable.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\WinnerTable.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\WinnerTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:10:36.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\PaymentTransaction.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\PaymentTransaction.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\PaymentTransaction.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\PaymentTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:10:26.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NewUser.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\NewUser.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\NewUser.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\NewUser.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\NewUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:12:29.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DepositPlans.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\DepositPlans.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\DepositPlans.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\DepositPlans.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\DepositPlans.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T08:26:23.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T08:40:12.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "cvAuction01Context.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\cvAuction01Context.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\cvAuction01Context.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\cvAuction01Context.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\cvAuction01Context.cs",
+              "ViewState": "AgIAAN4BAAAAAAAAAAAQwPMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:10:05.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DepositPayment.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\DepositPayment.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\DepositPayment.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\DepositPayment.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\DepositPayment.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:10:06.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BidRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\BidRequest.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\BidRequest.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\BidRequest.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\BidRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:09:53.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AllowedUserController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\AllowedUserController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\AllowedUserController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\AllowedUserController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\AllowedUserController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:14:35.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbo.All_Vehicles_Details.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.All_Vehicles_Details.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.All_Vehicles_Details.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-06T18:12:49.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HostAuction.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\HostAuction.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\HostAuction.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\HostAuction.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\HostAuction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:10:19.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Startup.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Startup.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Startup.cs",
+              "RelativeToolTip": "CV_Auction099\\Startup.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T17:32:30.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CurrentAuction.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\CurrentAuction.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\CurrentAuction.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\CurrentAuction.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\CurrentAuction.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA4wAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:09:55.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HostAuctionController.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\HostAuctionController.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Controllers\\HostAuctionController.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Controllers\\HostAuctionController.cs",
+              "RelativeToolTip": "CV_Auction099\\Controllers\\HostAuctionController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T14:30:05.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Approval.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\Approval.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\Approval.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\Approval.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\Approval.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:09:38.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AllVehiclesDetail.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\AllVehiclesDetail.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\AllVehiclesDetail.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\AllVehiclesDetail.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\AllVehiclesDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:09:26.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "CV_Auction099\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\Models\\Admin.cs",
+              "RelativeToolTip": "CV_Auction099\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:09:04.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/cvAuction01/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-06T10:42:11.384Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
