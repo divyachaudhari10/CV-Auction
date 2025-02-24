@@ -1,4 +1,5 @@
 package com.CV_Auction.beans;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 
 @Entity
@@ -7,16 +8,9 @@ public class Admin {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int aid;
-
-    @Column(nullable = false, length = 100)
     private String aname;
-
-    @Column(nullable = false, length = 255)
     private String apwd;
-
-    @Column(nullable = false, unique = true, length = 150)
     private String aemail;
-
     public Admin() {}
 
     public Admin(int id, String name, String password, String email) {
@@ -26,35 +20,26 @@ public class Admin {
         this.aemail = email;
     }
 
-    public int getId() {
+    public int getAid() {
         return aid;
     }
 
-    public void setId(int id) {
-        this.aid = id;
+    public void setAid(int aid) {
+        this.aid = aid;
     }
 
-    public String getName() {
-        return aname;
-    }
+    public String getEmail() { return aemail; }
+    @JsonProperty("aemail")
+    public void setEmail(String email) { this.aemail = email; }
 
-    public void setName(String name) {
-        this.aname = name;
-    }
+    public String getPassword() { return apwd; }
 
-    public String getPassword() {
-        return apwd;
-    }
+    @JsonProperty("apwd")
+    public void setPassword(String password) { this.apwd = password; }
 
-    public void setPassword(String password) {
-        this.apwd = password;
-    }
+    public String getName() { return aname; }
 
-    public String getEmail() {
-        return aemail;
-    }
+    @JsonProperty("aname")
+    public void setName(String name) { this.aname = name; }
 
-    public void setEmail(String email) {
-        this.aemail = email;
-    }
 }

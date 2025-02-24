@@ -5,9 +5,7 @@ import com.CV_Auction.services.ApprovalsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -24,6 +22,15 @@ public class ApprovalController {
             return  new ResponseEntity<>("No approvals found", HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(list, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{approvalid}")
+    public ResponseEntity<?> delete(@PathVariable int approvalid){
+        boolean res = approvalsService.reject(approvalid);
+        if(res){
+            return new ResponseEntity<>("Rejected successfully",HttpStatus.OK);
+        }
+        return new ResponseEntity<>("Operation failed", HttpStatus.NOT_FOUND);
     }
 
 }

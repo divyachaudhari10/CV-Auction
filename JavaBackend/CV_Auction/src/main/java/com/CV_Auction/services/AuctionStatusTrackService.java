@@ -12,6 +12,7 @@ public class AuctionStatusTrackService {
     @Autowired
     AuctionStatusTrackRepo auctionStatusTrackRepo;
 
+
     public List<AuctionStatusTrack> getAll(){
         List<AuctionStatusTrack> list = auctionStatusTrackRepo.findAll();
         if (list.isEmpty()){
@@ -20,5 +21,11 @@ public class AuctionStatusTrackService {
         return list;
     }
 
-
+    public AuctionStatusTrack updateBid(AuctionStatusTrack auctionStatusTrack) {
+        int bidsleft = auctionStatusTrack.getUserbidleft();
+        bidsleft -= 1;
+        auctionStatusTrack.setUserbidleft(bidsleft);
+        AuctionStatusTrack response = auctionStatusTrackRepo.save(auctionStatusTrack);
+        return response;
+    }
 }

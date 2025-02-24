@@ -19,18 +19,29 @@ public class CurrentAuction {
     private LocalDateTime auctionstart;
     private LocalDateTime auctionend;
 
+    private boolean isended;
+
     public CurrentAuction() {}
 
-    public CurrentAuction(int vehicleid, int auctionid, long baseprice, long highestbid, LocalDateTime auctionstart, LocalDateTime auctionend) {
+    public CurrentAuction(int vehicleid, int auctionid, long baseprice, long highestbid, LocalDateTime auctionstart, LocalDateTime auctionend,boolean isEnded) {
         this.vehicleid = vehicleid;
         this.auctionid = auctionid;
         this.baseprice = baseprice;
         this.highestbid = highestbid;
         this.auctionstart = auctionstart;
         this.auctionend = auctionend;
+        this.isended = isEnded;
     }
     public int getVehicleid() {
         return vehicleid;
+    }
+
+    public boolean isEnded() {
+        return isended;
+    }
+
+    public void setEnded(boolean ended) {
+        isended = ended;
     }
 
     public void setVehicleid(int vehicleid) {

@@ -26,7 +26,6 @@ public class WinsService {
 
         for (WinnerTable wTable : wins) {
             Vehicle vehicle = vehicleRepo.getByVehicleId(wTable.getVehicleid());
-//          System.out.println(uid +"  " + wTable.getAuctionid());
             Long highestBid = auctionStatusTrackRepo.finalAmount(uid, wTable.getAuctionid());
 
             if (vehicle != null) {

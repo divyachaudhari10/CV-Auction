@@ -16,13 +16,23 @@ public class WinnerTable {
     private int vehicleid;
     private int auctionid;
     private LocalDate auctionenddate;
+    @Version
+    private Long version;
 
-    public WinnerTable(int winnerid, int alloweduseruid, int vehicleid, int auctionid, LocalDate auctionenddate) {
-        this.winnerid = winnerid;
+    public WinnerTable(int alloweduseruid, int vehicleid, int auctionid, LocalDate auctionenddate) {
         this.alloweduseruid = alloweduseruid;
         this.vehicleid = vehicleid;
         this.auctionid = auctionid;
         this.auctionenddate = auctionenddate;
+    }
+
+
+    public Long getVersion() {
+        return version;
+    }
+
+    public void setVersion(Long version) {
+        this.version = version;
     }
 
     public WinnerTable() {}

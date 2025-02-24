@@ -10,7 +10,6 @@ public class HostAuction {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int auctionid;
-
     private int vehicleid;
 
     private int baseprice;

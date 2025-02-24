@@ -1,13 +1,12 @@
 package com.CV_Auction.controllers;
 
 import com.CV_Auction.beans.CurrentAuction;
+import com.CV_Auction.beans.WinnerTable;
 import com.CV_Auction.services.CurrentAuctionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -26,4 +25,12 @@ public class CurrentAuctionController {
         return new ResponseEntity<>(list,HttpStatus.OK);
     }
 
+    @PutMapping("/stop/{auctionid}")
+    public ResponseEntity<?> delete(@PathVariable int auctionid){
+        WinnerTable winner = currentAuctionService.stopauction(auctionid);
+        if(winner != null){
+            return new ResponseEntity<>("Auction ended successfully",HttpStatus.OK);
+        }
+        return new ResponseEntity<>("Operation Failed", HttpStatus.NOT_FOUND);
+    }
 }

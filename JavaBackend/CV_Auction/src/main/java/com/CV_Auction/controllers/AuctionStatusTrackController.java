@@ -5,9 +5,7 @@ import com.CV_Auction.services.AuctionStatusTrackService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -27,4 +25,12 @@ public class AuctionStatusTrackController {
         return new ResponseEntity<>(list,HttpStatus.OK);
     }
 
+    @PostMapping("/placebid")
+    public ResponseEntity<?> placeBid(@RequestBody AuctionStatusTrack auctionStatusTrack){
+        AuctionStatusTrack response = auctionStatusTrackService.updateBid(auctionStatusTrack);
+        if(response != null){
+            return new ResponseEntity<>(response,HttpStatus.OK);
+        }
+        return new ResponseEntity<>("Operation Failed.",HttpStatus.NOT_ACCEPTABLE);
+    }
 }

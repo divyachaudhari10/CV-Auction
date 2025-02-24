@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ApprovalsService {
@@ -18,5 +19,15 @@ public class ApprovalsService {
             return null;
         }
         return list;
+    }
+
+    public boolean reject(int id) {
+        Optional<Approvals> optional = approvalsRepo.findById(id);
+        if(optional.isPresent()){
+            Approvals approvals = optional.get();
+            approvalsRepo.delete(approvals);
+            return true;
+        }
+        return false;
     }
 }
