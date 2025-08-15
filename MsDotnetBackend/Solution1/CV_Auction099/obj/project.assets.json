@@ -4347,11 +4347,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\CV_Auction099.csproj",
+      "projectUniqueName": "C:\\Users\\yogesh\\OneDrive\\Desktop\\ReadyProjects\\CdacProject\\CV-Auction\\MsDotnetBackend\\Solution1\\CV_Auction099\\CV_Auction099.csproj",
       "projectName": "CV_Auction099",
-      "projectPath": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\CV_Auction099.csproj",
+      "projectPath": "C:\\Users\\yogesh\\OneDrive\\Desktop\\ReadyProjects\\CdacProject\\CV-Auction\\MsDotnetBackend\\Solution1\\CV_Auction099\\CV_Auction099.csproj",
       "packagesPath": "C:\\Users\\yogesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yogesh\\OneDrive\\Desktop\\zzzzzzz\\Solution1\\CV_Auction099\\obj\\",
+      "outputPath": "C:\\Users\\yogesh\\OneDrive\\Desktop\\ReadyProjects\\CdacProject\\CV-Auction\\MsDotnetBackend\\Solution1\\CV_Auction099\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4366,7 +4366,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4385,7 +4384,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4447,7 +4446,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
